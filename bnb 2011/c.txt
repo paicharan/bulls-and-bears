@@ -1,0 +1,10 @@
+1	Dr_Reddy	100	50	100
+2	Tata_Motors	200	25	200
+3	Uninor	20	250	20
+4	Micromax	40	125	40
+5	Voltas	500	10	500
+6	Jindal_Steel	80	60	80
+7	ICICI_Bank	350	15	350
+8	ACC	150	35	150
+9	Infosys	1000	5	1000
+10	Reliance	2000	3	2000

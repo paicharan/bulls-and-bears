@@ -1,0 +1,27 @@
+
+creation tables
+---------------
+
+
+create table p (pid int(10) primary key,amt int(10),c1 int(10),c2 int(10),c3 int(10),c4 int(10),c5 int(10),c6 int(10),c7 int(10),c8 int(10),c9 int(10),c10 int(10))engine=innodb;
+
+
+
+create table c (cid int(10)primary key,cname varchar(20),mv int(10),esc int(10),fv int(10))engine=innodb;
+
+===============================================================
+
+
+loadin tables
+------------
+
+
+LOAD DATA LOCAL INFILE '/home/chinnu/Desktop/p.txt' INTO TABLE p  FIELDS TERMINATED BY '\t';
+			(path of file)
+
+LOAD DATA LOCAL INFILE '/home/chinnu/Desktop/c.txt' INTO TABLE c  FIELDS TERMINATED BY '\t';
+
+
+==================================================================
+
+
